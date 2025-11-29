@@ -125,8 +125,8 @@ public class MainActivity extends AppCompatActivity {
             String category = data.getStringExtra("category");
             int qty = data.getIntExtra("quantity", 0);
             String date = data.getStringExtra("date");
-            boolean packed = data.getBooleanExtra("packed", false);
-            boolean important = data.getBooleanExtra("important", false);
+            boolean packed = data.getBooleanExtra("isPacked", false);
+            boolean important = data.getBooleanExtra("isImportant", false);
             String bagType = data.getStringExtra("bagType");
 
             BagItem newItem = new BagItem(name, category, qty, date, packed, important, bagType);
