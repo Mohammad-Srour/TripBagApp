@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Trip_Bag</string>
+    <string-array name="categories_arr">
+        <item>Select Category</item>
+        <item>Clothes</item>
+        <item>Electronics</item>
+        <item>Personal Items</item>
+        <item>Others</item>
+
+    </string-array>
+
+    <string-array name="bag_types">
+        <item>Select Bag Type</item>
+
+        <item>Backpack</item>
+        <item>Suitcase</item>
+        <item>Handbag</item>
+    </string-array>
+
+
+</resources>

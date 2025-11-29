@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Item Name"
+            android:textSize="20sp"
+            android:id="@+id/txtName"/>
+        <TextView
+            android:id="@+id/txtCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Category"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtBagType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Bag Type"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qty: 1"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reminder : Date"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/txtIsPacked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Packed: No"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+
+                 />
+
+            <TextView
+                android:id="@+id/txtIsImportant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔥Important"
+                android:textSize="20sp"
+                android:visibility="invisible"
+                android:layout_marginTop="15dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:id="@+id/btnEdit"
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:backgroundTint="@color/green"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:id="@+id/btnDelete"
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:layout_marginLeft="15dp"
+                android:backgroundTint="@color/red"
+                />
+        </LinearLayout>
+
+</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
